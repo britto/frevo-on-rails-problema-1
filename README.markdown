@@ -1,7 +1,7 @@
 FREVO ON RAILS
 ==============
-Grupo de Usuários Ruby de Pernambuco
-Pernambuco Ruby User Group
+Grupo de Usuários Ruby de Pernambuco  
+*Pernambuco Ruby User Group*
 
 # Problema 1 - Caixa Eletrônico
 
@@ -25,12 +25,12 @@ Para R$ 11,00:
     Não é possível pagar R$ 11,00.
 
 ## Testes
-Os testes devem ser feitos exclusivamente com minitest/test-unit.
+Os testes devem ser feitos exclusivamente com `test-unit`.
 
 ## Como participar?
 1. Faça um fork do projeto no Github.
 2. Adicione suas modificações e os respectivos testes (você também pode contribuir apenas com testes).
-3. Rode os testes e quando tudo estiver passando, envie o código ao Github.
-4. Envie um pull request para o projeto.
+3. Rode os testes e, quando tudo estiver passando, envie o código ao Github.
+4. Envie um *pull request* para este projeto.
 
 Se precisar de ajuda, mande um e-mail para frevo-on-rails@googlegroups.com.
