@@ -5,7 +5,7 @@ Pernambuco Ruby User Group
 # Problem 1 - Cash Machine (ATM)
 
 ## Problem Description
-What is the minimum set of bills that sums up to a given amount of money? Assume the machine is provided an unlimited amount of bills in the following values: 2, 5, 10, 20, 50 e 100.
+What is the minimum set of bills that sums up to a given amount of money? Assume the machine is provided an unlimited amount of bills in the following values: 2, 5, 10, 20, 50 and 100.
 
 ## Sample Usage and Expected Output
     $ bin/atm 107 248
@@ -23,9 +23,13 @@ What is the minimum set of bills that sums up to a given amount of money? Assume
     Unable to withdraw $ 11.
 
 ## Setting up the test environment
-    gem install bundler
-    bundle install
-    autotest
+    $ gem install bundler
+    $ bundle install
+    $ autotest
+
+If you don't like autotest and autotest-growl, just run:
+
+    $ bundle install --without autotest
 
 ## Contributing
 1. Fork it
