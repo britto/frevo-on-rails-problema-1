@@ -11,7 +11,7 @@ MONEY
   end
 
   it "complains about invalid withdrawal amounts" do
-    ATM.withdraw(53).should == "Unable to dispense $ 53."
+    ATM.withdraw(53).should == "Unable to withdraw $ 53."
   end
 
   it "accepts strings" do

@@ -5,7 +5,7 @@ module ATM
     body = amount.in_bills.map { |size, bills| "  #{bills} * $ #{'%3d' % size}" }.join("\n")
     header << body << "\n"
   rescue
-    "Unable to dispense $ #{amount}."
+    "Unable to withdraw $ #{amount}."
   end
 
   module Money

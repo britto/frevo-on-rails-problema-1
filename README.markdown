@@ -1,36 +1,36 @@
 FREVO ON RAILS
 ==============
-Grupo de Usuários Ruby de Pernambuco  
-*Pernambuco Ruby User Group*
+Pernambuco Ruby User Group
 
-# Problema 1 - Caixa Eletrônico
+# Problem 1 - Cash Machine (ATM)
 
-## Problema
-Quantas cédulas de cada nota são necessárias para somar uma quantidade *x* de dinheiro de forma que o cliente receba o menor número de cédulas possível? Considere que o caixa dispõe de uma quantidade ilimitada de notas de 2, 5, 10, 20, 50 e 100 reais.
+## Problem Description
+What is the minimum set of bills that sums up to a given amount of money? Assume the machine is provided an unlimited amount of bills in the following values: 2, 5, 10, 20, 50 e 100.
 
-## Exemplos
-Para R$ 107,00:
+## Sample Usage and Expected Output
+    $ bin/atm 107 248
+    For $ 107:
+      1 * $ 100
+      1 * $   5
+      1 * $   2
 
-    $ ruby caixa_eletronico.rb 107
-    Para R$ 107,00:
-      1 * R$   2,00
-      1 * R$   5,00
-      0 * R$  10,00
-      0 * R$  50,00
-      1 * R$ 100,00
+    For $ 248:
+      2 * $ 100
+      2 * $  20
+      4 * $   2
 
-Para R$ 11,00:
+    $ bin/atm 11
+    Unable to withdraw $ 11.
 
-    $ ruby caixa_eletronico.rb 11
-    Não é possível pagar R$ 11,00.
+## Setting up the test environment
+    gem install bundler
+    bundle install
+    autotest
 
-## Testes
-Os testes devem ser feitos exclusivamente com `test-unit`.
+## Contributing
+1. Fork it
+2. Change it
+3. Red, yellow, green
+4. Send a pull request
 
-## Como participar?
-1. Faça um fork do projeto no Github.
-2. Adicione suas modificações e os respectivos testes (você também pode contribuir apenas com testes).
-3. Rode os testes e, quando tudo estiver passando, envie o código ao Github.
-4. Envie um *pull request* para este projeto.
-
-Se precisar de ajuda, mande um e-mail para frevo-on-rails@googlegroups.com.
+Mail us at frevo-on-rails@googlegroups.com if you need help.
